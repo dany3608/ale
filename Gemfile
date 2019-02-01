@@ -9,6 +9,8 @@ gem 'rails', '~> 5.2.2'
 gem 'haml', '~> 5.0.0.beta.2'
 # materialize css
 gem 'materialize-sass'
+# icons
+gem 'font-awesome-sass', '~> 5.6.1'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
