@@ -1,21 +1,20 @@
-%nav.blue
-	.nav-wrapper
-		%a.brand-logo.center
-			=image_tag "logo1_gray.jpg", width: '20px'
-		%a.sidenav-trigger{'data-target': 'mobile-demo'}
-			%i.material-icons menu
 
-%ul.sidenav#mobile-demo
-	%li
-		%a
-			Programare
-	%li
-		%a
-			Contact
+-# Navbar & sidebar
+.nav-container-stuff
 
-.container
-	%p.pink
-		Damn
+	-# Top-head of navbar
+	%nav
+		.nav-wrapper
+			%a.brand-logo.center.container
+				%span.nav-name
+					Alexandra
+					%i.fas.fa-cut#logo-img
+					Nemet
+			%a.sidenav-trigger{'data-target': 'slide-out'}
+				%i.material-icons menu
 
-
-	
+	-# Slide-out navbar
+	%ul#slide-out.sidenav
+		%li Programari
+		.divider
+		%li Contact
