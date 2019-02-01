@@ -5,6 +5,10 @@ ruby '2.5.3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
+# HAML mark-up
+gem 'haml', '~> 5.0.0.beta.2'
+# materialize css
+gem 'materialize-sass'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
