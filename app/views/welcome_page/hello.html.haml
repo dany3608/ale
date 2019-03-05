@@ -18,3 +18,36 @@
 		%li Programari
 		.divider
 		%li Contact
+
+-# Body
+.mid-site-container
+
+	-# Parallax image 1
+	.parallax-container
+		.parallax
+			%img.parx-img{src: image_path('background1.jpg')}
+
+	-# Descriere
+	.div.col.s12
+		.card-panel.materialize-red.lighten-2.z-depth-1
+			.card
+				.card-content
+					.row.valign-wrapper.center
+						.col.s4
+							%img.circle.responsive-img.z-depth-2{src: image_path('ale1.jpg')}
+						.col.s8
+							%h1 Greetings!
+							%p My name is Alexandra and barbering is my beloved profession!
+							Find me on:
+				.card-tabs
+					%ul.tabs.tabs-fixed-width
+						%li.tab 
+							%a{href: "#contact"} Contact
+						%li.tab 
+							%a.active{href: "#service"} Service
+						%li.tab 
+							%a{href: "#location"} Location
+				.card-content
+					#contact Telephone:
+					#service Produse:
+					#location Find us here:
